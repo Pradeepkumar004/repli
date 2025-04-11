@@ -77,7 +77,7 @@ const Footer = () => {
         
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-slate-400 text-sm mb-4 md:mb-0">
-            © 2025 EgoBid. All rights reserved.
+            © 2025 Replu. All rights reserved.
           </div>
           <div className="flex flex-wrap gap-6">
             <Link to="/terms" className="text-slate-400 hover:text-white text-sm">Terms & Conditions</Link>
