@@ -37,7 +37,7 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
           <Menu className="h-5 w-5" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-[240px] sm:w-[280px]">
+      <SheetContent side="right" className="w-[240px] sm:w-[280px]">
         <div className="flex flex-col gap-4 py-4">
           <Link to="/" className="flex items-center gap-2 px-2">
             <Home className="h-4 w-4" />
