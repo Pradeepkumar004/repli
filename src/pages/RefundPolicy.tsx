@@ -18,7 +18,7 @@ const RefundPolicy = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">1. Overview</h2>
             <p>
-              This Refund Policy outlines the terms and conditions for refunds on the EgoBid platform. 
+              This Refund Policy outlines the terms and conditions for refunds on the replu platform. 
               We strive to ensure all users have a positive experience, but understand there may be 
               circumstances where a refund is appropriate.
             </p>
@@ -70,7 +70,7 @@ const RefundPolicy = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">7. Contact Us</h2>
             <p>
-              If you have any questions about this Refund Policy, please contact us at support@egobid.com.
+              If you have any questions about this Refund Policy, please contact us at contact.replu@gmail.com.
             </p>
           </div>
           
