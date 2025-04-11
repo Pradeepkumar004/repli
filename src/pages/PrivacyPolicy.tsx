@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
             <p>
-              EgoBid ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
+              Bid ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
               explains how we collect, use, disclose, and safeguard your information when you use our platform.
             </p>
             
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">8. Contact Us</h2>
             <p>
-              If you have any questions about this Privacy Policy, please contact us at privacy@egobid.com.
+              If you have any questions about this Privacy Policy, please contact us at contact.replu@gmail.com
             </p>
           </div>
           
