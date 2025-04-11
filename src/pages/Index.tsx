@@ -117,7 +117,7 @@ const Index = () => {
             </div>
             <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">When will the platform launch?</h3>
-              <p className="text-gray-600">We're planning to launch in Q2 2024. Early access will be given to users on our waitlist first, so sign up today!</p>
+              <p className="text-gray-600">We're planning to launch in Q3 2025. Early access will be given to users on our waitlist first, so sign up today!</p>
             </div>
           </div>
         </div>
