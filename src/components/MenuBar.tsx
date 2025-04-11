@@ -66,7 +66,7 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
         <div className="flex items-center">
           <Link to="/">
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mr-4 md:mr-10">
-              Reply
+              Replu
             </h1>
           </Link>
           
