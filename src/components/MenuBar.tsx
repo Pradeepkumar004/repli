@@ -68,9 +68,9 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mr-4 md:mr-10">
               Replu
             </h1>
-            <Link to="/" className="flex items-center">
+           <Link to="/" className="flex items-center">
             <img 
-              src="./public/logo_replu.png?raw=true" 
+              src="https://github.com/Pradeepkumar004/repli/blob/main/public/logo_replu.png?raw=true" 
               alt="Reply Logo" 
               className="h-10 mr-2" 
             />
