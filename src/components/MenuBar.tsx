@@ -75,7 +75,9 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
               className="h-10 mr-2" 
             />
           </Link>
-          
+          <div className="flex items-center">
+        {/* Menu items on the right */}
+        <div className="flex items-center justify-end">
           {isMobile ? mobileMenu : (
             <Menubar className="border-none bg-transparent">
               <MenubarMenu>
