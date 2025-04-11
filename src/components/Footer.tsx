@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-10 mb-10">
           <div>
-            <h2 className="text-2xl font-bold mb-4">EgoBid</h2>
+            <h2 className="text-2xl font-bold mb-4">Replu</h2>
             <p className="text-slate-300 mb-6 max-w-md">
               The first platform that lets fans pay to get personal replies from their favorite influencers and celebrities.
             </p>
