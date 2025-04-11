@@ -18,13 +18,13 @@ const TermsAndConditions = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
             <p>
-              Welcome to EgoBid. These Terms and Conditions govern your use of the EgoBid platform 
+              Welcome to replu. These Terms and Conditions govern your use of the replu platform 
               and services. By accessing or using our platform, you agree to be bound by these Terms.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">2. Definitions</h2>
             <p>
-              <strong>"Platform"</strong> refers to the EgoBid website and services.<br />
+              <strong>"Platform"</strong> refers to the replu website and services.<br />
               <strong>"User"</strong> refers to any individual who accesses or uses the Platform.<br />
               <strong>"Fan"</strong> refers to users who bid to receive replies from Influencers.<br />
               <strong>"Influencer"</strong> refers to users who provide replies to Fans through the Platform.
@@ -32,7 +32,7 @@ const TermsAndConditions = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">3. Service Description</h2>
             <p>
-              EgoBid provides a platform that allows Fans to bid for personal replies from Influencers. 
+              replu provides a platform that allows Fans to bid for personal replies from Influencers. 
               The highest bidder will receive a personal reply from the Influencer within a specified timeframe.
             </p>
             
@@ -45,32 +45,32 @@ const TermsAndConditions = () => {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">5. Payment Terms</h2>
             <p>
-              All payments made through the Platform are processed by our payment processor. EgoBid 
+              All payments made through the Platform are processed by our payment processor. replu 
               takes a commission from each successful transaction. Detailed fee structures are available 
               on the Platform.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">6. Content Guidelines</h2>
             <p>
-              All content shared on the Platform must comply with our content guidelines. EgoBid reserves 
+              All content shared on the Platform must comply with our content guidelines. replu reserves 
               the right to remove any content that violates these guidelines.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">7. Limitation of Liability</h2>
             <p>
-              EgoBid shall not be liable for any indirect, incidental, special, consequential, or 
+              replu shall not be liable for any indirect, incidental, special, consequential, or 
               punitive damages, including loss of profits, resulting from your use of the Platform.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">8. Changes to Terms</h2>
             <p>
-              EgoBid reserves the right to modify these Terms at any time. We will provide notice of 
+              replu reserves the right to modify these Terms at any time. We will provide notice of 
               significant changes to these Terms by posting the new Terms on the Platform.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">9. Contact Information</h2>
             <p>
-              If you have any questions about these Terms, please contact us at support@egobid.com.
+              If you have any questions about these Terms, please contact us at contact.replu@gmail.com.
             </p>
           </div>
           
