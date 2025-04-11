@@ -103,7 +103,7 @@ const EarlyAccessForm = ({ userType }: EarlyAccessFormProps) => {
       <div>
         <Textarea 
           placeholder={userType === "user" 
-            ? "Which influencers would you like to connect with?" 
+            ? "Which influencers would you like to connect with and how much you bid?" 
             : "Tell us about your audience and content"
           }
           value={message}
