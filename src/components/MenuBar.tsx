@@ -64,12 +64,11 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
       <div className="container mx-auto px-4 flex justify-between items-center py-3">
         <div className="flex items-center">
         <Link to="/" className="flex items-center">
-  <img 
+         <img 
     src="./public/favicon.ico"  // Directly from public folder
-    alt="Replu Logo" 
     className="h-10 mr-6" 
-  />
-</Link>
+           />
+    </Link>
     
           <Link to="/">
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mr-4 md:mr-10">
