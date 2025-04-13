@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
@@ -64,20 +63,23 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
     <div className="w-full bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
       <div className="container mx-auto px-4 flex justify-between items-center py-3">
         <div className="flex items-center">
+        <Link to="/" className="flex items-center">
+  <img 
+    src="./public/favicon.ico"  // Directly from public folder
+    alt="Replu Logo" 
+    className="h-10 mr-6" 
+  />
+</Link>
+    
           <Link to="/">
             <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mr-4 md:mr-10">
               Replu
             </h1>
-           <Link to="/" className="flex items-center">
-            <img 
-              src="https://github.com/Pradeepkumar004/repli/blob/main/public/logo_replu.png?raw=true" 
-              alt="Reply Logo" 
-              className="h-10 mr-2" 
-            />
           </Link>
-          <div className="flex items-center">
-        {/* Menu items on the right */}
-        <div className="flex items-center justify-end">
+          
+        </div>
+        
+        <div className="flex items-center">
           {isMobile ? mobileMenu : (
             <Menubar className="border-none bg-transparent">
               <MenubarMenu>
@@ -132,8 +134,6 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
             </Menubar>
           )}
         </div>
-        
-        {/* Removed the "About" button as requested */}
       </div>
     </div>
   );
