@@ -65,7 +65,7 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
         <div className="flex items-center">
         <Link to="/" className="flex items-center">
          <img 
-    src="./public/favicon.ico"  // Directly from public folder
+    src="./public/logoreplu"  // Directly from public folder
     className="h-10 mr-6" 
            />
     </Link>
