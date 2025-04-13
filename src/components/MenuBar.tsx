@@ -71,9 +71,7 @@ const MenuBar = ({ activeTab = "user", setActiveTab }: MenuBarProps) => {
               Replu
             </h1>
           </Link>
-          
         </div>
-        
         <div className="flex items-center">
           {isMobile ? mobileMenu : (
             <Menubar className="border-none bg-transparent">
