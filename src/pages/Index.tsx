@@ -1,6 +1,4 @@
-
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 import { DollarSign, Star, Heart, Users, MessageCircle } from "lucide-react";
 import EarlyAccessForm from "@/components/EarlyAccessForm";
 import InfluencerCategories from "@/components/InfluencerCategories";
@@ -21,7 +19,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-slate-50 to-slate-100">
       {/* Menu Bar */}
-      <MenuBar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <MenuBar />
       
       {/* Hero Section */}
       <header className="container mx-auto px-4 pt-10 pb-6 md:pt-20 md:pb-16 overflow-hidden">
@@ -117,7 +115,7 @@ const Index = () => {
             </div>
             <div className="bg-slate-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-3">When will the platform launch?</h3>
-              <p className="text-gray-600">We're planning to launch in Q3 2025. Early access will be given to users on our waitlist first, so sign up today!</p>
+              <p className="text-gray-600">We're planning to launch in Q2 2024. Early access will be given to users on our waitlist first, so sign up today!</p>
             </div>
           </div>
         </div>
